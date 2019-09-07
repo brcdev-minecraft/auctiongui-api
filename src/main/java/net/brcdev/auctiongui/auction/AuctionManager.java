@@ -29,8 +29,7 @@ public interface AuctionManager {
 
   void startAuction(Player player, AuctionStartingParams params);
 
-  void startAuction(final Player player, int quantity, double price, double increment,
-                    long duration);
+  void startAuction(final Player player, int quantity, double price, double increment, long duration);
 
   void endAuction(Auction auction, boolean broadcast);
 
