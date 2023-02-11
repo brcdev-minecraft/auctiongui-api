@@ -1,6 +1,5 @@
 # auctiongui-api 
 ![GitHub release](https://img.shields.io/github/release/brcdev-minecraft/auctiongui-api)
-![Travis (.org)](https://img.shields.io/travis/brcdev-minecraft/auctiongui-api)
 ![GitHub](https://img.shields.io/github/license/brcdev-minecraft/auctiongui-api)
 ![GitHub last commit](https://img.shields.io/github/last-commit/brcdev-minecraft/auctiongui-api)
 
