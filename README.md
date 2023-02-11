@@ -17,9 +17,10 @@ Tips:
 ## Version compatibility matrix
 When using this API, make sure you use valid version corresponding to AuctionGUI+'s version your plugin is going to be used with.
 
-| AuctionGUI+ version  | API version |
-| --- | --- |
-| 1.5.0 - ... | 1.0.0
+| AuctionGUI+ version | API version |
+|---------------------|-------------|
+| 1.27.0 - ...        | 2.0.0       |
+| 1.5.0 - 1.26.0      | 1.0.0       |
 
 
 ## Dependencies
