@@ -1,5 +1,6 @@
 package net.brcdev.auctiongui.auction;
 
+import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
 
 import java.util.ArrayList;
@@ -15,17 +16,17 @@ public interface AuctionManager {
 
   List<Auction> getAuctions(AuctionState... status);
 
-  List<Auction> getAuctionsStartedBy(Player player, AuctionState... status);
+  List<Auction> getAuctionsStartedBy(OfflinePlayer player, AuctionState... status);
 
   List<Auction> getRunningAuctionsInProgress();
 
-  List<Auction> getOwnAuctions(Player player);
+  List<Auction> getOwnAuctions(OfflinePlayer player);
 
-  List<Auction> getUnclaimedItems(Player player);
+  List<Auction> getUnclaimedItems(OfflinePlayer player);
 
-  List<Auction> getWonItems(Player player);
+  List<Auction> getWonItems(OfflinePlayer player);
 
-  List<Auction> getAuctionsTakingPartIn(Player player);
+  List<Auction> getAuctionsTakingPartIn(OfflinePlayer player);
 
   void startAuction(Player player, AuctionStartingParams params);
 
