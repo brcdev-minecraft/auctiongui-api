@@ -19,7 +19,8 @@ When using this API, make sure you use valid version corresponding to AuctionGUI
 
 | AuctionGUI+ version | API version |
 |---------------------|-------------|
-| 1.27.0 - ...        | 2.0.0       |
+| 1.34.0 - ...        | 2.1.0       |
+| 1.27.0 - 1.33.0     | 2.0.0       |
 | 1.5.0 - 1.26.0      | 1.0.0       |
 
 
